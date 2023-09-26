@@ -1,0 +1,5 @@
+1) Por que a imagem dos instrutores e instrutoras não foi colocada dentro da tag de imagem, a <img>?
+
+Pois a imagem “Background.png” é decorativa e seu contexto não muda a leitura da página.
+Alternativa correta! É isso aí! Quando estamos inserindo uma imagem, é importante pensar: 
+essa imagem faz parte do conteúdo da página? Se não, é possível colocá-la como background-image() de algum elemento.
