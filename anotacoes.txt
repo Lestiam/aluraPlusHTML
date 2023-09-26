@@ -3,3 +3,23 @@
 Pois a imagem “Background.png” é decorativa e seu contexto não muda a leitura da página.
 Alternativa correta! É isso aí! Quando estamos inserindo uma imagem, é importante pensar: 
 essa imagem faz parte do conteúdo da página? Se não, é possível colocá-la como background-image() de algum elemento.
+
+2) No vídeo anterior, foi demonstrado o uso de margins e as comparações dele com o padding. Das afirmações abaixo, quais são corretas?
+I. Margins criam um espaçamento ao redor do elemento.
+
+II. Paddings criam um espaçamento dentro do elemento.
+
+III. Paddings afastam um elemento do outro.
+
+IV. É possível configurar valores de margins diferentes para cada lado.
+
+Somente I, II e IV.
+Alternativa correta! Margins realmente criam espaço ao redor do elemento e paddings criam dentro dele, ou seja, 
+o padding afasta o conteúdo da borda e não um elemento do outro. Por fim, também podemos configurar valores diferentes para cada lado
+ do elemento e, no vídeo, vimos diversas maneiras de fazer isso.
+
+3)Tendo isso pronto, qual propriedade CSS a seguir você usaria para alinhar ao centro todos os itens deste container e por quê?
+text-align, porque ele consegue alinhar todos elementos dentro do bloco.
+
+Alternativa correta! O código começa com um elemento de bloco (a div), ou seja, que tem display block, e há elementos dentro dele que são inline.
+ Dessa maneira, usar a propriedade text-align na div permitirá alinhar para qualquer lado que você desejar os elementos filhos da div.

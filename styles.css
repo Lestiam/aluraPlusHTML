@@ -23,6 +23,8 @@ body {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain; /*faz caber na linha da tela */
+    align-items: center;
+    text-align: center; /*alinha todos os itens,até a imagem, para dentro do bloco*/
 }
 
 .container {
@@ -38,6 +40,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario { /*tem todas as configurações do botão principal, e algumas caracteristicas a mais */
@@ -53,4 +56,41 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0; /*sentido de relogio */
+}
+
+.container__caixa {
+    margin: 0 6em; /*o primeiro quer dizer topo e baixo, o segundo, esquerda e direita. */
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block; /*pega só a linha e a quebra no final */
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
